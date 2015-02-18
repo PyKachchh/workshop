@@ -532,14 +532,14 @@ textarea {
 @media (max-width:991px) {
 	.fixed-header-on .logo,
 	.fixed-header-on .site-name,
-	.fixed-header-on .site-slogan {
+	.fixed-header-on .site-sub {
 		display: none;
 	}
 }
 
 /* Blocks/Widgets
 ----------------------------------------------------------------------------- */
-/* Logo, Site Name, Site Slogan
+/* Logo, Site Name, Site Sub
 ---------------------------------- */
 .logo {
 	margin: 10px 10px 10px 0;
@@ -550,10 +550,10 @@ textarea {
 	transition: all 0.3s ease-in-out;
 }
 .logo,
-.site-name-and-slogan {
+.site-name-and-sub {
 	float: left;
 }
-.site-name-and-slogan {
+.site-name-and-sub {
     border: dotted white 3px;
 }
 .site-name {
@@ -570,7 +570,7 @@ textarea {
 .site-name a:hover {
 	text-decoration: none;
 }
-.site-slogan {
+.site-sub {
 	font-size: 12px;
 }
 
