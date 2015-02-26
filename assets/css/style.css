@@ -116,7 +116,7 @@ blockquote {
 ----------------------------------------------------------------------------- */
 .header {
 	color: #ffffff;
-	background-color: rgba(0, 0, 0, 0.10);
+	background-color: rgba(255, 255, 255, 0.1);
 	padding: 10px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -532,14 +532,14 @@ textarea {
 @media (max-width:991px) {
 	.fixed-header-on .logo,
 	.fixed-header-on .site-name,
-	.fixed-header-on .site-slogan {
+	.fixed-header-on .site-sub {
 		display: none;
 	}
 }
 
 /* Blocks/Widgets
 ----------------------------------------------------------------------------- */
-/* Logo, Site Name, Site Slogan
+/* Logo, Site Name, Site Sub
 ---------------------------------- */
 .logo {
 	margin: 10px 10px 10px 0;
@@ -550,8 +550,11 @@ textarea {
 	transition: all 0.3s ease-in-out;
 }
 .logo,
-.site-name-and-slogan {
+.site-name-and-sub {
 	float: left;
+}
+.site-name-and-sub {
+    border: dotted white 3px;
 }
 .site-name {
 	font-size: 36px;
@@ -567,7 +570,7 @@ textarea {
 .site-name a:hover {
 	text-decoration: none;
 }
-.site-slogan {
+.site-sub {
 	font-size: 12px;
 }
 
@@ -673,7 +676,7 @@ textarea {
 	bottom: -1px;
 	left: 0;
 	right: -1px;
-	background-color: rgba(85, 172, 238, 0.9);
+	background-color: #D55C86;
 	cursor: pointer;
 	overflow: hidden;
 	opacity: 0;
