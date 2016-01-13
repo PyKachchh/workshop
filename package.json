@@ -1,0 +1,29 @@
+{
+  "name": "PyBhujWorkshop",
+  "version": "0.0.0",
+  "description": "Website for student workshop",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.8.5"
+  },
+  "devDependencies": {
+    "bower": "^1.7.2",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-imagemin": "0.9.1"
+  },
+  "scripts": {
+    "start": "http-server -p 8000 build/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PyKachchh/workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PyKachchh/workshop/issues"
+  }
+}
