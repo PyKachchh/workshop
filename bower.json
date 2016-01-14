@@ -20,6 +20,7 @@
     "bootstrap": "3.3.0",
     "font-awesome": "4.2.0",
     "html5-boilerplate": "~5.3.0",
+    "jquery-bridget": "~2.0.0",
     "isotope": "2.0.0",
     "jquery-backstretch": "~2.0.4",
     "jquery_appear": "~0.3.6"

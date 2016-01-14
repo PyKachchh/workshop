@@ -1,7 +1,7 @@
 # Build & Dist
 # =============
-./build
-./dist
+/build
+/dist
 
 # VIM
 # ===============
