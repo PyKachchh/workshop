@@ -179,7 +179,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('build', ['env:build', 'loadconst', 'clean', 'preprocess',  'copy:build', 'imagemin', 'wiredep']);
-  grunt.registerTask('dist', ['env:dist', 'loadconst', 'clean', 'preprocess', 'bower_concat', 'concat', 'uglify', 'cssmin', 'imagemin', 'copy:dist']);
+  grunt.registerTask('dist', ['env:dist', 'loadconst', 'clean', 'preprocess', 'bower_concat', 'concat', 'uglify', 'cssmin', 'imagemin', 'copy:dist', 'htmlmin']);
   grunt.registerTask('watch_build', ['env:build', 'loadconst', 'watch:build']);
   grunt.registerTask('watch_dist', ['env:dist', 'loadconst', 'watch:dist']);
 };
