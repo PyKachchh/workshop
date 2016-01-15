@@ -67,7 +67,9 @@
 			$("[data-animation-effect]").each(function() {
 				var $this = $(this),
 				animationEffect = $this.attr("data-animation-effect");
-				if(Modernizr.mq('only all and (min-width: 768px)') && Modernizr.csstransitions) {
+        $this.addClass('object-visible');
+				/* JAY: This fucking Appear plugin is causing problem. Need some time to fix it!
+         if(Modernizr.mq('only all and (min-width: 768px)') && Modernizr.csstransitions) {
 					$this.appear(function() {
 						setTimeout(function() {
 							$this.addClass('animated object-visible ' + animationEffect);
@@ -75,7 +77,7 @@
 					}, {accX: 0, accY: -130});
 				} else {
 					$this.addClass('object-visible');
-				}
+				}*/
 			});
 		};
 

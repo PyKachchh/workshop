@@ -22,6 +22,15 @@ module.exports = function(grunt) {
         bowerOptions: {
           relative: false
         },
+        mainFiles: {
+          "outlayer": [
+            "item.js",
+            "outlayer.js"
+          ],
+          "isotope": [
+            'dist/isotope.pkgd.min.js'
+          ]
+        }
       }
     },
     clean: {
