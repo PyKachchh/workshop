@@ -106,6 +106,10 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'dist/index.html': 'dist/index.html'
+        },
+        options: {
+          removeComments: true,
+          collapseWhitespace: true
         }
       }
     },
